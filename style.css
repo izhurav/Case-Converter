@@ -1,0 +1,22 @@
+.button{
+    background-color: coral;
+    border: 1px solid brown;
+    border-radius: 5px;
+    flex-basis: 4em;
+    height: 2em;
+    line-height: 2em;
+    margin: 0 .5em 0 .5em;
+    text-align: center;
+}
+
+.flex-container{
+    flex-flow: row nowrap;
+}
+
+.field{
+    flex-flow: nowrap;
+    font-size: 14pt;
+    font-family: "Roboto", sans-serif;
+    width: max-content;
+    height: max-content;
+}
